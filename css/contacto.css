@@ -1,0 +1,39 @@
+.contacto {
+    background: var(--verde-5);
+    padding: 1rem;
+}
+.contacto p{
+    text-align:center;
+    padding: 1rem;
+}
+.formulario {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formulario__input {
+    font-family: var(--Baloo-Tamma-2), sans-serif;
+    border-radius: 1rem;
+    border: 0px;
+    margin: 1rem auto;
+    text-decoration-color: lightgrey;
+    width: 295px;
+    height: 2rem;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.botonEnviar {
+    font-family: var(--Baloo-Tamma-2), sans-serif;
+    color: var(--background-color);
+    background-color: var(--rojo-3);
+    border-width: 6px;
+    border-color: var(--rojo-1);
+    border-radius: 100%;
+    margin: 1rem auto;
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    font-weight: 400;
+    font-size: 1rem;
+}

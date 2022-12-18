@@ -1,0 +1,57 @@
+main { 
+    background-color:var(--background-color);
+    padding: 1rem;
+}
+.main__imagen{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__imagenDev{
+    width: 98px;
+    height: 98px;
+    border-radius: 100%;
+    padding: auto;
+}
+.main__imgDerechos{
+    font-size:small;
+    color: darkgrey;
+    padding: auto;
+}
+.main p {
+    text-align:center;
+    font-size: 1.1rem;
+
+}
+.main__redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main__redes li{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    background-color: var(--background-color);
+    padding: 1rem;
+    width: 156px;
+    height: 118px;
+}
+.main__redes img {
+    width: 35%;
+}
+.main__sobreMi {
+    background-color: var(--verde-5);
+    padding: 1rem;
+}
+.main__sobreMi p {
+    padding: 1rem;
+}
+
+.main__imgDerechos{
+    font-size:small;
+    color: darkgrey;
+    padding: auto;
+}

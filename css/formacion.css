@@ -1,0 +1,36 @@
+.formacion {
+  background: var(--azul-5);
+  padding: 1rem;
+}
+.formacion__lista {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.formacion__lista li {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: var(--background-color);
+    padding: 16px;
+
+    border-radius: 1rem;
+    width: min-content;
+    height: 350px;
+}
+.formacion__lista img {
+  max-width: 10%;
+  min-width: 80px;
+  padding: 1rem;
+}
+.formacion__lista {
+    text-align:center;
+    font-size: 1rem;
+    font-weight: bold;
+}

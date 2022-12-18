@@ -1,0 +1,31 @@
+.conocimientos {
+    background: var(--azul-5);
+    padding: 1rem;
+}
+.conocimientos__lista {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    padding: 1rem;
+    
+}
+.conocimientos__lista  li{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-color: var(--background-color);
+    padding: 16px;
+   
+    border-radius: 1rem;
+    width: 156px;
+    height: 118px;
+}
+.conocimientos__lista img {
+    width: 30px;
+    height: 30px;
+}
+

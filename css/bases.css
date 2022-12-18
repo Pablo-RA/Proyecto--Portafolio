@@ -1,0 +1,55 @@
+:root {
+  --background-color: white;
+
+  --rojo-1: #3f1916;
+  --rojo-2: #662723;
+  --rojo-3: #8c342f;
+  --rojo-4: #b4423b;
+  --rojo-5: #ca5e58;
+
+  --azul-1: #182f43;
+  --azul-2: #25496a;
+  --azul-3: #316390;
+  --azul-4: #3d7db8;
+  --azul-5: #5d96cb;
+
+  --amarillo-1: #aca000;
+  --amarillo-2: #c2c500;
+  --amarillo-3: #fffb00;
+  --amarillo-4: #dbda92;
+  --amarillo-5: #edeac5;
+
+  --verde-1: #2b782d;
+  --verde-2: #379f3b;
+  --verde-3: #47c14c;
+  --verde-4: #6dcf70;
+  --verde-5: #92dc95;
+
+  --Baloo-Tamma-2: "Baloo Tamma 2", cursive;
+}
+body {
+  font-family: var(--Baloo-Tamma-2);
+  line-height: 150%;
+}
+h1 {
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  padding: 1rem;
+}
+h2 {
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  padding: 1rem;
+}
+a {
+  color: black;
+}
+a:hover {
+  color: var(--azul-5);
+  text-decoration: underline;
+  text-transform: var(--Baloo-Tamma-2);
+}

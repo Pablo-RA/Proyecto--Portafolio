@@ -1,0 +1,29 @@
+.pasatiempos {
+    background: var(--amarillo-5);
+    padding: 1rem;
+}
+.pasatiempos_lista{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    padding: 1rem;
+}
+.pasatiempos_lista li{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-color: var(--background-color);
+    padding: 16px;
+   
+    border-radius: 1rem;
+    width: 156px;
+    height: 118px;
+}
+.pasatiempos_lista img {
+    width: 30px;
+    height: 30px;
+}
