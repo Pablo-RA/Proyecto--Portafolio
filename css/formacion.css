@@ -23,6 +23,11 @@
     border-radius: 1rem;
     width: min-content;
     height: 350px;
+    
+    transition: transform 0.3s;
+}
+.formacion__lista li:hover {
+  transform: scale(1.1);
 }
 .formacion__lista img {
   max-width: 10%;

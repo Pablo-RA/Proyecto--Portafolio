@@ -23,6 +23,11 @@
     border-radius: 1rem;
     width: 156px;
     height: 118px;
+
+    transition: transform 0.3s;
+}
+.conocimientos__lista li:hover {
+    transform: scale(1.1);
 }
 .conocimientos__lista img {
     width: 30px;

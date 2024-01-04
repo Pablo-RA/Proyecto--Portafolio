@@ -22,6 +22,11 @@
     border-radius: 1rem;
     width: 156px;
     height: 118px;
+
+    transition: transform 0.3s;
+}
+.pasatiempos_lista li:hover {
+    transform: scale(1.1);
 }
 .pasatiempos_lista img {
     width: 30px;
